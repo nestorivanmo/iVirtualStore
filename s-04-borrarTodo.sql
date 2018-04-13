@@ -1,0 +1,34 @@
+drop table tarjeta_credito cascade constraints;
+drop table cliente cascade constraints;
+drop table transferencia cascade constraints;
+drop table direccion_fac cascade constraints;
+drop table direccion_ent cascade constraints;
+drop table paquete cascade constraints;
+drop table empresa cascade constraints;
+drop table tarjeta_credito cascade constraints;
+drop table seguimiento cascade constraints;
+drop table producto cascade constraints;
+drop table tipo_producto cascade constraints;
+drop table pelicula cascade constraints;
+drop table album cascade constraints;
+drop table video_juego cascade constraints;
+drop table orden_compra cascade constraints;
+drop table tipo_entrega cascade constraints;
+drop table lista_producto cascade constraints;
+drop table factura cascade constraints;
+drop table escala cascade constraints;
+
+drop sequence cliente_seq;
+drop sequence direccion_fac_seq;
+drop sequence direccion_ent_seq;
+drop sequence seguimiento_seq;
+drop sequence lista_producto_seq;
+drop sequence orden_compra_seq;
+drop sequence tipo_entrega_seq;
+drop sequence factura_seq;
+drop sequence empresa_seq;
+drop sequence paquete_seq;
+
+drop table carrito_compras cascade constraints;
+drop table producto_precio cascade constraints;
+drop table historial_compras;
